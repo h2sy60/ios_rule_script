@@ -1,28 +1,26 @@
-rules:
- - DOMAIN,bybit-exchange.github.io,💞 地域限制,no-resolve   #bybit交易所
- - DOMAIN,app-measurement.com,💞 地域限制,no-resolve       #bybit交易所
- - DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com,💞 地域限制,no-resolve       #bybit交易所
- - DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de,💞 地域限制,no-resolve  #bybit交易所
- - DOMAIN-SUFFIX,amazon.com,💞 地域限制,no-resolve       #亚马逊|bybit交易所
- - DOMAIN-SUFFIX,amazonaws.com,💞 地域限制,no-resolve    #亚马逊|bybit交易所
- - DOMAIN-SUFFIX,bybit.biz,💞 地域限制,no-resolve      #bybit交易所
- - DOMAIN-SUFFIX,bybit.com,💞 地域限制,no-resolve      #bybit交易所
- - DOMAIN-SUFFIX,bycsi.com,💞 地域限制,no-resolve      #bybit交易所
- - DOMAIN-SUFFIX,bytick.com,💞 地域限制,no-resolve     #bybit交易所
- - DOMAIN-SUFFIX,byapis.com,💞 地域限制,no-resolve     #bybit交易所
- - DOMAIN-SUFFIX,bycbe.com,💞 地域限制,no-resolve      #bybit交易所
- - DOMAIN-SUFFIX,bymj.io,💞 地域限制,no-resolve        #bybit交易所
- - DOMAIN-SUFFIX,byabcde.com,💞 地域限制,no-resolve    #bybit交易所
- - DOMAIN-SUFFIX,byapps.net,💞 地域限制,no-resolve     #bybit交易所
- - DOMAIN-SUFFIX,byd3c3.com,💞 地域限制,no-resolve     #bybit交易所
- - DOMAIN-SUFFIX,bybdc6.com,💞 地域限制,no-resolve     #bybit交易所
- - DOMAIN-SUFFIX,appsflyer.com,💞 地域限制,no-resolve  #bybit交易所
- - IP-CIDR,13.32.121.6/32,💞 地域限制       #bybit交易所
- - IP-CIDR,43.133.238.145/32,💞 地域限制    #bybit交易所
- - IP-CIDR,13.33.187.108/32,💞 地域限制     #bybit交易所
- - IP-CIDR,150.109.230.182/32,💞 地域限制   #bybit交易所
- - IP-CIDR,142.251.215.234/32,💞 地域限制   #bybit交易所
- - IP-CIDR,43.133.241.84/32,💞 地域限制     #bybit交易所
- - IP-CIDR,3.160.150.37/32,💞 地域限制      #bybit交易所
-
-
+# bybit交易所
+DOMAIN,bybit-exchange.github.io,PROXY
+DOMAIN,app-measurement.com,PROXY
+DOMAIN-SUFFIX,ffbbbdc6d3c353211fe2ba39c9f744cd.com,PROXY
+DOMAIN-SUFFIX,ffe390afd658c19dcbf707e0597b846d.de,PROXY
+DOMAIN-SUFFIX,amazon.com,PROXY
+DOMAIN-SUFFIX,amazonaws.com,PROXY
+DOMAIN-SUFFIX,bybit.biz,PROXY
+DOMAIN-SUFFIX,bybit.com,PROXY
+DOMAIN-SUFFIX,bycsi.com,PROXY
+DOMAIN-SUFFIX,bytick.com,PROXY
+DOMAIN-SUFFIX,byapis.com,PROXY
+DOMAIN-SUFFIX,bycbe.com,PROXY
+DOMAIN-SUFFIX,bymj.io,PROXY
+DOMAIN-SUFFIX,byabcde.com,PROXY
+DOMAIN-SUFFIX,byapps.net,PROXY
+DOMAIN-SUFFIX,byd3c3.com,PROXY
+DOMAIN-SUFFIX,bybdc6.com,PROXY
+DOMAIN-SUFFIX,appsflyer.com,PROXY
+IP-CIDR,13.32.121.6/32,PROXY
+IP-CIDR,43.133.238.145/32,PROXY
+IP-CIDR,13.33.187.108/32,PROXY
+IP-CIDR,150.109.230.182/32,PROXY
+IP-CIDR,142.251.215.234/32,PROXY
+IP-CIDR,43.133.241.84/32,PROXY
+IP-CIDR,3.160.150.37/32,PROXY
